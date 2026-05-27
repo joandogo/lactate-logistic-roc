@@ -1,0 +1,18 @@
+# Private data: do not commit patient-level datasets.
+data/*.csv
+!data/SPSSlactato_template.csv
+
+# Analysis outputs can be regenerated.
+outputs/*
+!outputs/.gitkeep
+
+# R session files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
